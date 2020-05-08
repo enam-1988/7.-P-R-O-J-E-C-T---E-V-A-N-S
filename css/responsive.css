@@ -1,0 +1,154 @@
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+   
+ .banner-text h1{
+ 	font-size: 130px;
+ }
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+.latest-inner h1{
+  font-size: 70px ! important;
+}
+  
+  .hov-three h1{
+  font-size: 40px ! important;
+}
+
+.hov-three h1{
+  font-size: 40px ! important;
+}
+
+.latest-inner span{
+  font-size: 40px ! important;
+  margin-left: 0px;
+}
+
+.leather-left-inner img {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-group input{
+  width: 500px;
+}
+
+.form-group{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.inner-left-form h1{
+  text-align: center;
+}
+
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+ .banner-text h1{
+ 	font-size: 75px;
+ }
+
+ .about-right-inner-text{
+	padding-left: 0px ;
+}
+
+.latest-inner h1{
+	font-size: 50px ! important;
+	font-weight: bold;
+}
+
+.latest-inner span{
+	font-size: 30px ! important;
+	margin-left: 0px;
+	background-color: rgba(255,165,0,.5); 
+}
+
+.form-group input{
+  width: 300px;
+}
+
+.form-group{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.col-lg-6{
+  padding: 15px;
+}
+
+.col-lg-3{
+  padding: 15px;
+}
+
+.inner-left-form{
+  margin-bottom: 100px;
+}
+
+.inner-left-form h1{
+  text-align: center;
+}
+
+.about {
+    padding: 0px 0px;
+}
+
+
+.workplace-left-inner {
+    padding: 160px 0px;
+    top: -20%;
+}
+
+.hov-three h1{
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 7px;
+}
+
+
+.fashion-left-inner {
+    top: -40%;
+}
+
+.hov-two{
+  position: absolute;
+  top: 23%;
+  transition: all 0.2s ease;
+}
+
+.hov-four{
+  position: absolute;
+  top: 19%;
+  transition: all 0.2s ease;
+}
+
+svg {
+    margin-top: 37px;
+}
+
+/**/
+}
